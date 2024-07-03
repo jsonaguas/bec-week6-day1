@@ -1,9 +1,9 @@
-# Task 1: Setting Up a Python Virtual Environment and Installing Packages
-# Step-by-step in terminal (Mac specific commands):
-# 1. Navigate to your project directory: cd path/to/your/project
-# 2. Create a virtual environment: python3 -m venv venv
-# 3. Activate the virtual environment: source venv/bin/activate
-# 4. Install the requests package: pip install requests
+#Task 1:
+''' 
+python3 -m venv venv
+source venv/bin/activate
+pip install requests
+'''
 
 # Task 2: 
 import requests

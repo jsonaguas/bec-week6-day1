@@ -1,5 +1,11 @@
+#Task 1:
+''' 
+python3 -m venv venv
+source venv/bin/activate
+pip install requests
+'''
 import requests
-
+#Task 2:
 def fetch_planet_data():
     url = "https://api.le-systeme-solaire.net/rest/bodies/"
     response = requests.get(url)
@@ -18,6 +24,7 @@ def fetch_planet_data():
         print("Failed to fetch data")
         return []
 
+#Task 3:
 def find_heaviest_planet(planets):
     heaviest_planet = max(planets, key=lambda x: x['mass'])
     return heaviest_planet['name'], heaviest_planet['mass']
